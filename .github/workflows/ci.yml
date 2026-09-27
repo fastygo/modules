@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        module: [render, markdown, view]
+        module: [content-json, render, markdown, view]
     steps:
       - uses: actions/checkout@v4
 

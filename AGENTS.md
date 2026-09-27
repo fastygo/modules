@@ -2,7 +2,9 @@
 
 This repository is a registry of reusable modules. It is not the framework process.
 
-Each directory under the root is one module with its own tag: `render/vX.Y.Z`, `markdown/vX.Y.Z`, `view/vX.Y.Z`. There is no root `go.mod`.
+Each directory under the root is one module with its own tag:
+`content-json/vX.Y.Z`, `render/vX.Y.Z`, `markdown/vX.Y.Z`,
+`view/vX.Y.Z`. There is no root `go.mod`.
 
 ## Rules
 
@@ -11,6 +13,8 @@ Each directory under the root is one module with its own tag: `render/vX.Y.Z`, `
 3. Do not move goldmark into `render`, or templ into `markdown`.
 4. Do not add the templ CLI `tool` directive to `render`. Applications that generate templates own that line, at the same `github.com/a-h/templ` version the library requires.
 5. Comments and documentation are written in English.
+6. `content-json` is a read-only Codex adapter. It does not define product
+   schemas, persistence, HTTP, or a second content contract.
 
 Run before completion, in each module, with `GOWORK=off`:
 
