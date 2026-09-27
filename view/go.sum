@@ -1,0 +1,4 @@
+github.com/fastygo/framework v0.4.0 h1:l02BXSrCp5ZXfyjdNai2oKL+Ova1zgdNAODwNJT0K+E=
+github.com/fastygo/framework v0.4.0/go.mod h1:Uf0fR/rtZq3W/hHnEH90Uc0SC4QP8jqRgjz0w8o0yBM=
+go.uber.org/goleak v1.3.0 h1:2K3zAYmnTNqV73imy9J1T3WC+gmCePx2hEGkimedGto=
+go.uber.org/goleak v1.3.0/go.mod h1:CoHD4mav9JJNrW/WLlf7HGZPjdw8EucARQHekz1X6bE=
