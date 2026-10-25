@@ -2,17 +2,17 @@
 
 Reusable modules that sit next to [`github.com/fastygo/framework`](https://github.com/fastygo/framework). Each directory is its own module. Import the tag. There is no root module and no local `replace`.
 
-Current shared pins are Framework **v0.4.0** and Codex **v0.3.0**.
+Current shared pins are Framework **v0.4.0** and Codex **v0.4.0**.
 
 | Module | Import | Tag |
 | --- | --- | --- |
-| Read-only Codex JSON fixtures | `github.com/fastygo/modules/content-json` | `content-json/v0.1.0` |
+| Read-only Codex JSON fixtures | `github.com/fastygo/modules/content-json` | `content-json/v0.4.0` |
 | Templ response writer | `github.com/fastygo/modules/render` | `render/v0.1.0` |
 | Markdown pages | `github.com/fastygo/modules/markdown` | `markdown/v0.1.0` |
 | Theme and language data | `github.com/fastygo/modules/view` | `view/v0.1.0` |
 
 ```bash
-go get github.com/fastygo/modules/content-json@v0.1.0
+go get github.com/fastygo/modules/content-json@v0.4.0
 go get github.com/fastygo/modules/render@v0.1.0
 go get github.com/fastygo/modules/markdown@v0.1.0
 go get github.com/fastygo/modules/view@v0.1.0
